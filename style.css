@@ -93,6 +93,10 @@ margin-top: -3rem;
   margin: 2rem;
 }
 
+.photo {
+  width: 100%;
+}
+
 /* Media section */
 
 .jumbotron {
@@ -176,7 +180,7 @@ footer svg.svg-inline--fa:hover {
 /* Media Queries */
 
 @media (max-width: 767px) {
-  
+
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
