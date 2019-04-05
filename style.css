@@ -38,7 +38,7 @@ margin-top: -3rem;
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #797c80;
+  color: #cb2222;
 }
 
 /* Landing Page  */
@@ -103,6 +103,7 @@ margin-top: -3rem;
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
   border-radius: 0;
+  width: 100%;
 }
 
 h3.heading {
@@ -115,12 +116,16 @@ margin-bottom: 3rem;
 .heading-underline {
 width: 3rem;
 height: .2rem;
-background-color:  #505962;
+background-color:  #cb2222;
 margin: 0 auto 2rem;
 }
 
 .track img{
 width: 100%;
+}
+
+audio {
+  width: 100%;
 }
 
 /* Tour Dates */
@@ -136,12 +141,6 @@ width: 100%;
   padding: 7rem 2rem;
 }
 
-.heading-underline-white {
-width: 3rem;
-height: .2rem;
-background-color: #fff;
-margin: 0 auto 2rem;
-}
 
 .fixed-background h3 {
 margin-bottom: 2rem;
@@ -153,6 +152,20 @@ margin-bottom: 2rem;
 
 /* Contact Section */
 
+.btn-outline-primary {
+  border-width: medium;
+  width: 50%;
+  text-transform: uppercase;
+  margin: 1rem;
+  background-color: #fff;
+  border-color: #40474e;
+}
+
+.btn-outline-primary:hover {
+  background-color: #cb2222;
+  border-color: #cb2222;
+  
+}
 
 /* Footer */
 
@@ -172,7 +185,7 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #797c80!important;
+  color: #cb2222;!important;
 }
 
 
