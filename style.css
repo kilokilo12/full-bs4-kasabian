@@ -207,11 +207,8 @@ footer svg.svg-inline--fa:hover {
 
 /* Media Queries */
 
-@media (max-width: 767px) {
-  video {
-    left: -528px; 
-    top: 0px;
-  }
+@media (max-width: 768px) {
+  
   
 
 }
