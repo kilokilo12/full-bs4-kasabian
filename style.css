@@ -92,11 +92,11 @@ video {
 
 /* About section */
 
-/* .narrow {
+.narrow {
   width: 75%;
   margin: 1.5rem auto;
   padding-top: 2rem;
-} */
+}
 
 .narrow h1 {
   font-size: 2.4rem;
@@ -208,7 +208,10 @@ footer svg.svg-inline--fa:hover {
 /* Media Queries */
 
 @media (max-width: 767px) {
-
+  video {
+    left: -528px; 
+    top: 0px;
+  }
   
 
 }
