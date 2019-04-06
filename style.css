@@ -43,8 +43,19 @@ margin-top: -3rem;
 
 /* Landing Page  */
 
+video {
+  display: block;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: contain;
+}
 .home-inner {
-  
+ 
 }
 
 .caption {
@@ -152,9 +163,13 @@ margin-bottom: 2rem;
 
 /* Contact Section */
 
+.contact {
+  margin-top: 5rem;
+}
+
 .btn-outline-primary {
   border-width: medium;
-  width: 50%;
+  width: 30%;
   text-transform: uppercase;
   margin: 1rem;
   background-color: #fff;
@@ -185,7 +200,7 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #cb2222;!important;
+  color: #cb2222!important;
 }
 
 
@@ -193,6 +208,8 @@ footer svg.svg-inline--fa:hover {
 /* Media Queries */
 
 @media (max-width: 767px) {
+
+  
 
 }
 

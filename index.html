@@ -18,7 +18,7 @@
 
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-			<a class="navbar-brand" href="#"><img src="img/kasabian.jpg"></a>
+			<a class="navbar-brand" href="#home"><img src="img/kasabian.jpg"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -35,7 +35,8 @@
 						<a class="nav-link" href="#media">Media</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#tour">Tour Dates</a>
+						<a class="nav-link" href="#tour">Tour
+							Dates</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
@@ -49,7 +50,8 @@
 		<div class="landing">
 			<div class="home-wrap">
 				<div class="home-inner">
-					<video autoplay muted loop playsinline id="myVideo">
+					<video autoplay muted loop playsinline id="myVideo" poster="img/bg-kasabian.jpg"
+						style="left: -528px; top: 0px;">
 						<source src="media/kiss1.mp4" type="video/mp4">
 					</video>
 
@@ -67,7 +69,6 @@
 	</div>
 	<!-- End Home Section -->
 
-	<hr class="divider">
 
 	<!-- Start About Section -->
 	<div id="about" class="offset">
@@ -242,8 +243,11 @@
 	<!-- Start Contact Section -->
 	<div id="contact" class="offset">
 		<div class="container">
+			<h3 class="heading text-center contact">Contact Us
+			</h3>
+			<div class="heading-underline"></div>
 			<div class="card">
-				<div class="card-header">
+				<div class="card-header text-center">
 					Send Us A Message
 				</div>
 				<div class="card-block text-center">
@@ -299,6 +303,14 @@
 	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 	<!--- End of Script Source Files -->
 
+	<script>
+		$(function () {
+			$('.nav a').on('click', function () {
+				if ($('.navbar-toggler').css('display') != 'none') {
+					$('.navbar-toggler').trigger("click");
+				}
+			});
+		});</script>
 </body>
 
 </html>
